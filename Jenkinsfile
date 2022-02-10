@@ -19,7 +19,7 @@ pipeline{
             }
         }
 
-        stage ('Veify Stage') {
+        stage ('Verify Stage') {
 
             steps{
                 withMaven(maven : 'MAVEN_3_6_2'){
